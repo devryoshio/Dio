@@ -77,7 +77,6 @@ header .menu{
     display: block;
     text-decoration: none;
     height: 50px;
-   
     line-height: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -99,7 +98,6 @@ header .menu{
 }
 
 #quem-somos h2::before{
-    
     height: 50px;
     width: 50px;
     margin-right: 5px;
@@ -140,15 +138,9 @@ header .menu{
     justify-content: space-around;
 }
 
-
-
-
-
-
 .list-servicos .list-servicos{
     text-align: center;
 }
-
 
 .item-servicos a{
     width: 220px;
@@ -165,7 +157,6 @@ header .menu{
     font-weight: 700;
 }
 
-
 .item-servicos p{
     font-weight: 700;
     font-size: 18px;
@@ -178,8 +169,6 @@ header .menu{
     margin: auto;
 }
 
-
-
 #planos{
     flex-direction: column;
     min-height: 100vh;
@@ -188,7 +177,6 @@ header .menu{
 
 #planos{
     font-size: 32px;
-
 }
 
 .list-planos{
@@ -200,7 +188,6 @@ header .menu{
     flex: 1;
     border: 5px solid #122A57;
     margin-right: 20px;
-
 }
 
 .item-plano .btn{
@@ -224,7 +211,6 @@ header .menu{
     height: 3px;
     margin-top: 20px;
     margin-bottom: 10px;
-
 }
 
 .item-plano ul{
@@ -260,9 +246,7 @@ footer  .footer{
     color: #fff;
 }
 
-
 /* mobile */
-
 @media(max-width:992px) {
     .flex-container{
         flex-direction: column;
