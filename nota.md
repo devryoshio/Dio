@@ -57,8 +57,10 @@ Seria como será organizado os "blocos" dentro do container
 
 ## align-items
 
-## align-content
+[alura](https://www.alura.com.br/artigos/css-guia-do-flexbox?gclid=Cj0KCQjw1N2TBhCOARIsAGVHQc5s1aDPiy4ajmsCVmLnxp7o5JTkk_eBbUZnyQbSy841c0zFU9_wwD0aAtSnEALw_wcB)
 
+[triangulo dev](https://triangulo.dev/posts/guia-completo-flexboxgi)
+## align-content
 
 ## align-self
 
@@ -72,3 +74,8 @@ Seria como será organizado os "blocos" dentro do container
 
 ## order
 
+# Material 
+
+[GitLab](https://gitlab.com/karensantos/project-flexbox-dio)
+
+[slide](https://drive.google.com/file/d/1cSBnkzCsCaqkbiUssLW7LCVCw5yErRCk/view)
