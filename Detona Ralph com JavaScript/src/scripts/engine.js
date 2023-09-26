@@ -6,9 +6,9 @@ const state = {
         score: document.querySelector("#score"),
     },
   
-    values: {
-        timeId:null
-        gameVelocity: 1000
+    values:{
+        timeId:null,
+        gameVelocity:1000,
     },
 };
 
@@ -40,15 +40,17 @@ function randomSquare(){
 
 
 function addListenerHitBox(){
-    state.views.squares.forEach((square) => {
-        if(square.id === 1)
-            console.log("olha");
+    state.view.squares.forEach((square) => {
+        square.addEventListener("mousedown", ()=> {
+            alert("clicou"); 
+        });
     });
 }
 
 
 function initialize(){
     moveEnemy();
+    addListenerHitBox();
 }
 
 
