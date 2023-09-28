@@ -7,7 +7,7 @@
 
 - Profº Felipão,
 - [Dio](https://web.dio.me/)
-- [ Pedro Henrique ](https://github.com/PedroHenriqueBS)
+- [ Pedro Henrique ](https://github.com/PedroHenriqueBS) 
 
 
 # Melhoria no futuro
@@ -17,3 +17,7 @@
 - [ ] colocar tempo;
 - [ ] Colocar level, cada vez fica mais dificil tanto em relaçao ao tempo e quantidade emoji
 - [ ] Fucionamento em Firefox, me parece que não reconhece inset do CSS.
+
+# Projeto futuro
+
+- [ ] Se baseando nesse projeto, criar jogo batalha naval
