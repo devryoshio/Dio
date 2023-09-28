@@ -5,7 +5,9 @@
 
 # Agracimento 
 
-Ao professor Felipão!
+- Profº Felipão,
+- [Dio](https://web.dio.me/)
+- [ Pedro Henrique ](https://github.com/PedroHenriqueBS)
 
 
 # Melhoria no futuro
