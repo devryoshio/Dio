@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #46a5ce;
-    user-select: none;
+    user-select: none; /* serve para mão selecionar o texto*/
 }
 
 .container {
@@ -14,7 +14,83 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: linear-gradient(325deg, #0b0331 0%, #193e9b 30%, #3f79c5 70%, #9aaed0 100%);
+    background: blue;
     padding: 40px 60px;
     border-radius: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.412);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.reset {
+    padding: 15px 20px;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reset:focus {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+span {
+    color: #fff;
+}
+
+.game {
+    width: 430px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    font-size: 3em;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+}
+
+.item::after {
+    content: '';
+    position: absolute;
+   
+  
+
+    background: #404040;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    inset: 0;
+}
+
+.item.boxOpen {
+    transform: rotateY(0deg);
+}
+
+.boxOpen::after, .boxMatch::after {
+    transform: rotateY(180deg);
 }
