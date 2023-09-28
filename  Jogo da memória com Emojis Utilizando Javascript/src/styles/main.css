@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #46a5ce;
+    user-select: none;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(325deg, #0b0331 0%, #193e9b 30%, #3f79c5 70%, #9aaed0 100%);
+    padding: 40px 60px;
+    border-radius: 20px;
+}
