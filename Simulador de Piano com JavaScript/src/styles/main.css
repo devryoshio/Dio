@@ -71,3 +71,57 @@ ul {
     left: 2.1rem;
     background-color: #fff;
 }
+
+.piano-keys {
+    display: flex;
+    margin-top: 40px;
+}
+
+.piano-keys .key{
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    color: #a2a2a2; 
+    position: relative;
+    text-transform: uppercase;
+}
+
+.piano-keys .white{
+    width: 70px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: linear-gradient(#fff 96%, #eee 4%);
+}
+
+.piano-keys .black{
+    width: 44px;
+    height: 140px;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    border: 1px solid black;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(#333, #000);
+}
+
+.piano-keys span{
+    position: absolute;
+    bottom:  20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.13rem;
+}
+
+/* 
+ faz com que deixa sensação de esta teclando
+ box-shadow faz o efeito da sobra do lado direito
+*/
+.piano-keys .white:active{
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom #fff 0%, #eee 100%);
+}
+
+.piano-keys .black:active{
+    box-shadow: inset -5px 5px 20px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to bottom #000, #434343);
+}
