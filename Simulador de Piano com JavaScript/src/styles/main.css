@@ -125,3 +125,7 @@ ul {
     box-shadow: inset -5px 5px 20px rgba(255, 255, 255, 0.1);
     background: linear-gradient(to bottom #000, #434343);
 }
+
+.piano-keys .key.hide span {
+    display: none;
+}
