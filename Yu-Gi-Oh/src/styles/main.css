@@ -21,5 +21,52 @@
     left:0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0,0,0,0.8) 50%,rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,0.8) 50%,rgba(0,0,0,1) 100%);
 }
+
+.container{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    height: 100vh;
+}
+
+.container_left {
+    width: 35%;
+    min-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.score_box{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.frame{
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.card_details{
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;
+
+}
+
+#card-name{
+    font-size: 0.8rem;
+}
+
+#card-type{
+    font-size: 1rem;
+}
+
+/* demarcando os elemento ...*/

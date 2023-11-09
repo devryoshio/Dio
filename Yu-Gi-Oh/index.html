@@ -23,7 +23,7 @@
         </video>
     </div>
     <div class="container">
-        <div class="container_left">
+        <div class="container_left framed-golden-2">
             
             <div class="score_box">
                 <span id="score_point">Win: 0 | Lose: 0</span>
@@ -31,13 +31,21 @@
             <div class="menu_avatar">
                 <img  id="card-image">
             </div>
-            <div class="card_details">
-                <p id="card-name"></p>
-                <p id="card-type"></p>
+            <div class="card_details frame" >
+                <p id="card-name">a</p>
+                <p id="card-type">a</p>
             </div>
         </div>
         <div class="container_right">
-            <div class="card-box_container"></div>
+            <div class="card-box_container frame"></div>
+            
+            <div class="card-box_container">
+                <div class="card-box frame" id="computer-cards"></div>
+                <div class="card-versus"></div>
+                <div class="card-box frame" id="player-cards"></div>
+
+            </div>
+   
         </div>
     </div>
     <script src="/src/scripts/engine.js" defer></script>
