@@ -1,8 +1,8 @@
 
 # Acessando Azure Machine Learning 
 
-na barra coloque Azure Machine
-![[Pasted image 20240312132022.png]]
+na barra coloque Azure Machine  
+![barra](imagem/barra.png)
 
 
 Clique 
