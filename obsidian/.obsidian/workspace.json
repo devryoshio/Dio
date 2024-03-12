@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "100920c66a3a1eff",
+    "type": "split",
+    "children": [
+      {
+        "id": "a73a52b4557ff4de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da35373c46e080eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c26a5d50dee698fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "540a83e97d630b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b040f1c892e230f1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b3e024aaaa8e071",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8d459a272193849",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3cd3fca5303401f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0009a56c8c7f608f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7dbdc87376734d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "23a26daa2ab3f203",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b2f5138422f92b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5f91b3994733baf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Azure/Machine Learning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd50037ba304f0ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Azure/Machine Learning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6300617a07513808",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "985c8fc837c5ec9e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Azure/Machine Learning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c26a5d50dee698fd",
+  "lastOpenFiles": [
+    "Pasted image 20240312132326.png",
+    "Pasted image 20240312132123.png",
+    "Azure/Machine Learning.md",
+    "Pasted image 20240312132022.png",
+    "Pasted image 20240312130939.png",
+    "Pasted image 20240312130859.png",
+    "Welcome.md",
+    "Untitled.md",
+    "Azure"
+  ]
+}
