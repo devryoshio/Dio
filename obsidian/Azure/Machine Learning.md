@@ -1,19 +1,17 @@
-
-# Acessando Azure Machine Learning 
+# Acessando Azure Machine Learning
 
 na barra coloque Azure Machine  
 ![barra](imagem/barra.png)
 
-
 Clique 
 
-![[Pasted image 20240312132326.png]]
+![](/home/ricardo/snap/marktext/9/.config/marktext/images/2024-03-14-14-21-17-Pasted%20image%2020240312132326.png)
 
 Preencha o formulário 
 
-![[Pasted image 20240312130939.png]]
+![](/home/ricardo/snap/marktext/9/.config/marktext/images/2024-03-14-14-22-00-Pasted%20image%2020240312130939.png)
 
+> [!WARNING]
+> Não coloque Brasil pois o serviço é sempre mais caro 
 
->[!WARNING]
->Não coloque Brasil pois o serviço é sempre mais caro 
 
