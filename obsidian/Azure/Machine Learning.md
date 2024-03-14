@@ -5,7 +5,9 @@ na barra coloque Azure Machine
 
 Clique 
 
-![Pasted image 20240312132326](imagem/Pasted image 20240312132326.png)
+![Pasted image 20240312132326](imagem/Pasted%20image%2020240312132326.png)
+
+
 
 Preencha o formulário 
 
