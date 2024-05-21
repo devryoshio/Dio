@@ -3,7 +3,7 @@
 Seria conseguir achar insight em escala.
 
 
-O `Azure Cognitive Seach` é uma ferramenta para fazer isso. 
+cd uma ferramenta para fazer isso. 
 
 
 ## Configuração 
