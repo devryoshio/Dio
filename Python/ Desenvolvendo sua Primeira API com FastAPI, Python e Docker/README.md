@@ -14,3 +14,9 @@ A professora [Nayanna Nara](https://github.com/nayannanara) a instituição de [
 ~~~
 make run-migrations
 ~~~
+
+# Vá em 
+
+~~~
+http://localhost:8000/docs#
+~~~
